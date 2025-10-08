@@ -100,16 +100,16 @@ php artisan serve
 
 ## ✨ Screenshots
 ### Página de bienvenida Laravel 12
-![Página de bienvenida Laravel 12](public\img\welcome-laravel12withBreezer.jpg)
+![Página de bienvenida Laravel 12](public/img/welcome-laravel12withBreezer.jpg)
 
 <hr>
 
 ### Dashboard
-![Dashboard](public\img\dashboard.jpg)
+![Dashboard](public/img/dashboard.jpg)
 
 <hr>
 
 ### Profile view
-![Vista de perfil](public\img\profile-view.jpg)
+![Vista de perfil](public/img/profile-view.jpg)
 
 
