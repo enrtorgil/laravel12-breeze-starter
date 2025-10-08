@@ -18,12 +18,18 @@ This repository serves as a **base template** for new Laravel applications, prov
 
  ```bash
 git clone https://github.com/enrtorgil/laravel12-breeze-starter.git my-new-project
+ ```
+
+ ```bash
 cd my-new-project
  ```
 
 #### 2. Install dependencies
  ```bash
 composer install
+ ```
+
+ ```bash
 npm install
  ```
 
@@ -32,6 +38,9 @@ Copy and configure your environment file:
 
  ```bash
 cp .env.example .env
+ ```
+
+ ```bash
 php artisan key:generate
  ```
 
