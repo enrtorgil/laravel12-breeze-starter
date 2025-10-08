@@ -37,10 +37,10 @@ php artisan key:generate
 
 Then edit .env to match your local database credentials:
 
-DB_CONNECTION=mysql
-DB_DATABASE=laravel
-DB_USERNAME=root
-DB_PASSWORD=
+- DB_CONNECTION=mysql
+- DB_DATABASE=laravel
+- DB_USERNAME=root
+- DB_PASSWORD=
 
 #### 4. Run migrations and seeders
 
@@ -49,8 +49,8 @@ php artisan migrate --seed
  ```
 
 The seeder creates a test user:
-Email: test@example.com
-Password: password
+- Email: test@example.com
+- Password: password
 
 #### 5. Compile assets
 
@@ -77,8 +77,15 @@ php artisan serve
 
 <hr>
 
-<div style="display: flex; align-items: flex-start;">
-<div style="flex: 1;">
+- ✅ Laravel 12 (PHP 8.2+)
+- 🎨 Tailwind CSS preconfigured
+- ⚡ Vite integration
+- 🔐 Breeze Auth (Login, Register, Profile)
+- 📁 Blade Components for layouts
+- 🌗 Modern and minimal UI (Laravel 12 default)
+- 🧰 Ready for Docker / Laravel Sail
+
+<hr>
 
 | Layer      | Technology                     |
 | -----------| ------------------------------- |
@@ -89,19 +96,6 @@ php artisan serve
 | Database   | MySQL (default)                |
 | Language   | PHP 8.2+                       |
 
-</div>
-<div style="flex: 1;">
-
-- ✅ Laravel 12 (PHP 8.2+)
-- 🎨 Tailwind CSS preconfigured
-- ⚡ Vite integration
-- 🔐 Breeze Auth (Login, Register, Profile)
-- 📁 Blade Components for layouts
-- 🌗 Modern and minimal UI (Laravel 12 default)
-- 🧰 Ready for Docker / Laravel Sail
-</div>
-</div>
-
 <hr>
 
 ## ✨ Screenshots
@@ -111,11 +105,11 @@ php artisan serve
 <hr>
 
 ### Dashboard
-![Página de bienvenida Laravel 12](public\img\dashboard.jpg)
+![Dashboard](public\img\dashboard.jpg)
 
 <hr>
 
 ### Profile view
-![Página de bienvenida Laravel 12](public\img\profile-view.jpg)
+![Vista de perfil](public\img\profile-view.jpg)
 
 
